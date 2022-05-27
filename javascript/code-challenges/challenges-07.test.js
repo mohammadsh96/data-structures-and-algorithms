@@ -1,5 +1,5 @@
 'use strict';
-var arraySort = require('array-sort');
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
@@ -7,7 +7,8 @@ Write a function called sortStarWarsCharacters that sorts the characters in the 
 ------------------------------------------------------------------------------------------------ */
 
 let starWarsPeople = [
-  {name: 'C-3PO',
+  { 
+    name: 'C-3PO',
     height: '167',
     eye_color: 'yellow'
    
