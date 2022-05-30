@@ -24,7 +24,7 @@ reversArray(arr);
 
 ## Whiteboard Process
 
-![array-revers](revers-array.png)
+![array-revers](array-revers.png)
 
 ## Approach & Efficiency
 
