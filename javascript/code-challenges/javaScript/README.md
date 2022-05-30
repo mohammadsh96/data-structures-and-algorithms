@@ -31,4 +31,4 @@ reversArray(arr);
 i used a  simple (for loop) to revers the array with push method  becuase i am so familiar with it and suit for the problem , and the Big O time is O(n) and / Space is O(1)
 
 .
- back to main page [](../README.md)
+ [ back toread me file in code challenge](../javascript/code-challenges/README.md)
