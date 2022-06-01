@@ -1,4 +1,4 @@
-# Reverse an Array
+# insert to middle of  Array
 
  i made a function called insertShiftArray which takes an array and a number as an argument, return an array with the number is added to the middle of the array  .
 
