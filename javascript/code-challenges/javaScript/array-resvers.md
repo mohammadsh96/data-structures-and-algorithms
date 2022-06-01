@@ -1,8 +1,6 @@
-[array-reverse md file ](./array-resvers.md)
+# Reverse an Array
 
-[array-insert-shift md file ](./array-insert-shift.md)
-
-
+ we made a function called reverseArray which takes an array as an argument, return an array with elements in reversed order.
 
  ```js
 function reversArray(){
@@ -32,6 +30,5 @@ reversArray(arr);
 
 i used a  simple (for loop) to revers the array with push method  becuase i am so familiar with it and suit for the problem , and the Big O time is O(n) and / Space is O(1)
 
-.
- [ back toread me file in code challenge](../javascript/code-challenges/README.md)
 
+ [back to challeng README file ](../README.md)
