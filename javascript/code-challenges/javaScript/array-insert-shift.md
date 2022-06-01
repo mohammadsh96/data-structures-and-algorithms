@@ -34,4 +34,4 @@ let insertShiftArray = (array, numTobeInsert) => {
 i used a  simple (for loop) to loop throw the array and check the middle of array length to insert the number i nwant after it .   and the Big O time is O(n) and / Space is O(1)
 
 .
- back to main page [](../README.md)
+  [back to challenge README file](../README.md)
