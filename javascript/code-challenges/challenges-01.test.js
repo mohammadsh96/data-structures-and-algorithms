@@ -32,9 +32,9 @@ Use `forEach` to loop over the input array. Modify each string, and add the upda
 const addExclamation = (arr) => {
   let x =[];
   for(let i = 0 ; i < arr.length ; i++){
-let newElem =arr[i] +"!" ;
+    let newElem =arr[i] +"!" ;
 
-x.push(newElem);
+    x.push(newElem);
   }
   return x ;
 };
@@ -51,10 +51,10 @@ const allUpperCase = (arr) => {
   // Solution code here...
   let x =[];
   for(let i = 0 ; i < arr.length ; i++){
-let newElem = arr[i];
-let result = newElem.toUpperCase();
+    let newElem = arr[i];
+    let result = newElem.toUpperCase();
 
-x.push(result);
+    x.push(result);
   }
   return x ;
 };
@@ -65,22 +65,22 @@ CHALLENGE 4
 
 Write a function named `greeting` that takes in a single string and returns the string in all uppercase letters, and followed by an "!".
 
-Then, write a function named `speaker` that takes in an array of strings and a callback function. 
+Then, write a function named `speaker` that takes in an array of strings and a callback function.
 
-Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array. 
+Use `forEach` to build a new array of strings, each string modified by the callback. Return the new array.
 ------------------------------------------------------------------------------------------------ */
 
-const greeting = (arr) => {
-  
+const greeting = () => {
+
   // Solution code here...
 };
 
-const speaker = (arr, callback) => {let x =[];
+const speaker = (arr) => {let x =[];
   for(let i = 0 ; i < arr.length ; i++){
-let newElem = arr[i];
-let result = newElem.toUpperCase();
-let results = result + "!";
-x.push(results);
+    let newElem = arr[i];
+    let result = newElem.toUpperCase();
+    let results = result + '!';
+    x.push(results);
   }
   return x ;
   // Solution code here...
@@ -108,7 +108,7 @@ const addValues = (arr, value) => {
   // Solution code here...
 };
 
-const addNumbers = (num, arr, times, callback) => {
+const addNumbers = (num, arr, times) => {
   num =8 ;
   arr=[];
   for(times = 0 ; times<5 ; times ++ ){
@@ -142,13 +142,13 @@ const createList = (availableItems) => {
   let x = [];
   for(let i=0; i<5 ; i++){
 
-if(availableItems[i].available === true  ){
+    if(availableItems[i].available === true  ){
 
-x.push(availableItems[i].name);
+      x.push(availableItems[i].name);
 
-}
-}
-return x ;
+    }
+  }
+  return x ;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -167,6 +167,7 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
+  console.log(arr) ;
 };
 
 /* ------------------------------------------------------------------------------------------------
