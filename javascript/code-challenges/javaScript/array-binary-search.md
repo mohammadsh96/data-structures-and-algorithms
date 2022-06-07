@@ -2,7 +2,7 @@
 Binary Search JavaScript is a searching technique that works on the Divide and Conquers approach. As searching is one of the most commonly performed tasks in the IT field, many data structures and algorithms exist now to make searching much more efficient
 
 ## Whiteboard Process
-[whiteboard](array-binary-search.png)
+[whiteboard](array-array-binary-1search.PNG)
 
 ## Approach & Efficiency
 when we use the binary search  the Big O will Be O(log n)
