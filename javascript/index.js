@@ -1,14 +1,13 @@
-const LinkedList =require("./code-challenges/Extending an Implementation/linkedlist")
-const NewNode =require("./code-challenges/Extending an Implementation/NewNode")
-
+const LinkedList =require("./code-challenges/codeChallengeClass07/linkedList")
 const linkedList = new LinkedList();
-
-
 linkedList.insertFirstNode(8);
-linkedList.insertLastNode(2);
-linkedList.append(99)
-linkedList.insertBefore(2,41)
-linkedList.insertAfter(2,66)
+
+linkedList.append(10)
+linkedList.append(15)
+linkedList.append(20)
+linkedList.append(30)
+// linkedList.insertBefore(2,41)
+// linkedList.insertAfter(2,66)
 linkedList.insertLastNode(33)
 // linkedList.insertNodeAtIndex(34, 1);
 // linkedList.insertNodeAtIndex(57, 4);
@@ -18,6 +17,9 @@ linkedList.insertLastNode(33)
 // // linkedList.getNodeAtIndex(4);
 // // linkedList.removeNodeAtIndex(2);
 linkedList.toString();
+linkedList.kthFromEnd(5);
+linkedList.kthFromEnd(2);
+
 
 
 // // linkedList.clear();
