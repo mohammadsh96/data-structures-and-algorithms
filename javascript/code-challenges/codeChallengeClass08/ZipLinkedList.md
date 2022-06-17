@@ -1,5 +1,6 @@
 # Zip-Linked-lists
-
+[zipLinkedList.js](ZipLinkedList.js)
+[zip.test.j](../../__test__/zip.test.js)
 Code Challenge / Algorithm 
 
 Write a function called zip lists
