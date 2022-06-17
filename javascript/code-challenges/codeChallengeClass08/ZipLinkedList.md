@@ -1,17 +1,22 @@
-'use strict';
+# Zip-Linked-lists
 
-const LinkedList =require("./code-challenges/codeChallengeClass08/ZipLinkedList")
-const list1 =new LinkedList();
-const list2 =new LinkedList();
-list1.insert(1)
-list1.insert(2)
-list1.insert(3)
-list2.insert(7);
-list2.insert(8);
-list2.insert(9);
-list1.toString();
-list2.toString();
+Code Challenge / Algorithm 
 
+Write a function called zip lists
+Arguments: 2 linked lists
+Zip the two linked lists together into one so that the nodes alternate between the two lists and 
+Return: New Linked List.
+
+## whiteboard 
+![whiteboard](./zipWhiteboard.png)
+
+## result 
+![result](./result.png)
+## Challenge
+ 
+my code :
+
+```js
 function zipLists(list1, list2){
 
   let current_1 = list1.head;
@@ -35,10 +40,20 @@ function zipLists(list1, list2){
   newList.toString()
   return newList;
 }
-
-
 zipLists(list1, list2)
+```
+
+## Approach & Efficiency and BIG O
+i tried to make the Big O as lowest as i can by using while loop 
+
+time >> O(n)
+space >>O(1)
+
+[back to challenge README file ](../../README.md)
 
 
- 
- 
+
+
+
+
+
