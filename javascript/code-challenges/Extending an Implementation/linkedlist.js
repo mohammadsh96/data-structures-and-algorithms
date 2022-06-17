@@ -41,7 +41,7 @@ toString() {
       currentNode = currentNode.next;
   }
   console.log(`${output}null`);
-  console.log(` this is the tail ${this.tail.data}`);
+  // console.log(` this is the tail ${this.tail.data}`);
 }
 
   append(data) {
@@ -122,4 +122,5 @@ this.tail=newNode;
     }
   }
 }
+
 module.exports = LinkedList;
