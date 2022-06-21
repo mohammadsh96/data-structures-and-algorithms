@@ -5,7 +5,7 @@
 [node js](node.js)
 
 
-## white process
+## WhiteBoard process
  WhiteBoard :
  ![Kth](kthWhiteBoard.png)
 

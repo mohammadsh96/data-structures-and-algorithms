@@ -1,8 +1,11 @@
 # Zip-Linked-lists
-[zipLinkedList.js](ZipLinkedList.js)
-[zip.test.j](../../__test__/zip.test.js)
 
-Code Challenge / Algorithm
+[zipLinkedList file](ZipLinkedList.js) 📁
+
+[zip test file](../../__test__/zip.test.js) 📁
+
+Code Challenge / Algorithm 
+
 
 Write a function called zip lists
 Arguments: 2 linked lists
@@ -16,7 +19,12 @@ Return: New Linked List.
 ![result](./result.png)
 ## Challenge
 
-my code :
+
+
+
+ 
+my code : 💻
+
 
 ```js
 function zipLists(list1, list2){
