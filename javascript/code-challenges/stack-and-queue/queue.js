@@ -32,7 +32,8 @@ this.elements[this.tail] = element;
     return this.length === 0;
   }
   isEmpty(){
-    if(this.tail = 0) {
+   
+    if(this.tail === 0 ) {
         console.log(true)
          return true;
     }
@@ -49,9 +50,9 @@ console.log(this.elements[index]);
 
     }
 
-console.log("this is the tail of the Queue  : " , this.elements[this.tail -1 ]);
+console.log("this is the Back of the Queue  : " , this.elements[this.tail -1 ]);
 
-console.log("this is the head of the Queue  : " , this.elements[this.head ]);
+console.log("this is the Front of the Queue  : " , this.elements[this.head ]);
   }
 }
 

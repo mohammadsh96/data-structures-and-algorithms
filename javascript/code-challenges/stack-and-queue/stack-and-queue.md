@@ -13,13 +13,13 @@
 
  note : if you like it Comment with "wow"
 
-![Queue](queuetest.png)
+![Queue](newQ.png)
 
 - Stack test :
 
 ![stack](Stacktest.png)
 
-- how i test them :
+- how i test them on index.js:
 
 ![indexS](indexStack.png)
 
