@@ -7,6 +7,8 @@
 
 ▶[Queue Class](queue.js)◀
 
+▶[test file](../../__test__/SQ.test.js)◀
+
  ## testing :
 
  - queue test:
