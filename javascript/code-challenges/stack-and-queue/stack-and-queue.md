@@ -19,7 +19,7 @@
 
 ![stack](Stacktest.png)
 
-- how i test them :
+- how i test them on index.js:
 
 ![indexS](indexStack.png)
 
