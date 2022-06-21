@@ -25,14 +25,10 @@ this.elements[this.tail] = element;
   peek() {
     return this.elements[this.head];
   }
-  get length() {
-    return this.tail - this.head;
-  }
-  get isEmpty() {
-    return this.length === 0;
-  }
+
+
   isEmpty(){
-   
+
     if(this.tail === 0 ) {
         console.log(true)
          return true;
@@ -42,18 +38,18 @@ this.elements[this.tail] = element;
         return false;}
 }
 
-  toString() {
+//   toString() {
 
 
-    for ( let index = 0; index < this.tail; index++) {
-console.log(this.elements[index]);
+//     for ( let index = 0; index < this.tail; index++) {
+// console.log(this.elements[index]);
 
-    }
+//     }
 
-console.log("this is the Back of the Queue  : " , this.elements[this.tail -1 ]);
+// console.log("this is the Back of the Queue  : " , this.elements[this.tail -1 ]);
 
-console.log("this is the Front of the Queue  : " , this.elements[this.head ]);
-  }
+// console.log("this is the Front of the Queue  : " , this.elements[this.head ]);
+//   }
 }
 
 module.exports = Queue;
