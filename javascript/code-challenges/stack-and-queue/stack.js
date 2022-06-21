@@ -21,11 +21,16 @@ class Stack {
 
   }
   pop() {
-      if(!this.top) throw new Error(" Can not pop() when Stack is empty! ")
-      let top2 = this.top;
-      this.top = this.top.next;
-      return top2.value;
+      if(this.top){
+        let top2 = this.top;
+        this.top = this.top.next;
+        return top2.value;
 
+
+      }else{
+        throw new Error(" Can not pop() when Stack is empty! ")
+
+      }
   }
   peek() {
       if (!this.top) throw new Error(" Can not peek() when Stack is empty! ")
@@ -40,18 +45,18 @@ class Stack {
           console.log(false);
           return false;}
   }
-  printElements() {
+//   printElements() {
 
-    let currentNode = this.top;
-    let output ='';
+//     let currentNode = this.top;
+//     let output ='';
 
-    while (currentNode) {
-   output = ` ${output}${currentNode.value} ->  ` ;
+//     while (currentNode) {
+//    output = ` ${output}${currentNode.value} ->  ` ;
 
-        currentNode = currentNode.next;
-    }
-    console.log(`${output}null`);
-}
+//         currentNode = currentNode.next;
+//     }
+//     console.log(`${output}null`);
+// }
 }
 
 module.exports = Stack;
