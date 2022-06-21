@@ -6,19 +6,25 @@
 
 Code Challenge / Algorithm 
 
+
 Write a function called zip lists
 Arguments: 2 linked lists
-Zip the two linked lists together into one so that the nodes alternate between the two lists and 
+Zip the two linked lists together into one so that the nodes alternate between the two lists and
 Return: New Linked List.
 
-## whiteboard 
+## whiteboard
 ![whiteboard](./zipWhiteboard.png)
 
-## result 
+## result
 ![result](./result.png)
 ## Challenge
+
+
+
+
  
 my code : 💻
+
 
 ```js
 function zipLists(list1, list2){
@@ -48,7 +54,7 @@ zipLists(list1, list2)
 ```
 
 ## Approach & Efficiency and BIG O
-i tried to make the Big O as lowest as i can by using while loop 
+i tried to make the Big O as lowest as i can by using while loop
 
 time >> O(n)
 space >>O(1)
