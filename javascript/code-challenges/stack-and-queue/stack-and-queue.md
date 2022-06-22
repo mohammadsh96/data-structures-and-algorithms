@@ -7,7 +7,7 @@
 
 ▶[Queue Class](queue.js)◀
 
-▶[test file](../../__test__/SQ.test.js)◀
+▶[test file](./Stack-Queue.test.js)◀
 
  ## testing :
 
@@ -15,17 +15,17 @@
 
  note : if you like it Comment with "wow"
 
-![Queue](newQ.png)
+![Queue](./assets/newQ.png)
 
 - Stack test :
 
-![stack](Stacktest.png)
+![stack](./assets/Stacktest.png)
 
 - how i test them on index.js:
 
-![indexS](indexStack.png)
+![indexS](./assets/indexStack.png)
 
-![indexQ](indexQueue.png)
+![indexQ](./assets/indexQueue.png)
 
 
 ## Challenge
