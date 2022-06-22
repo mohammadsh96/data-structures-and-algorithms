@@ -1,6 +1,6 @@
 'use strict';
-const Stack = require('../code-challenges/stack-and-queue/stack');
-const queue = require('../code-challenges/stack-and-queue/queue');
+const Stack = require('./stack');
+const queue = require('./queue');
 
 
 describe('Stack test', () => {
