@@ -45,7 +45,7 @@ let cat = {
 
 let horse = {
     name: 'name',
-    animalType: 'horse',
+    animalType: 'cat',
 }
 
 let dog2 = {
