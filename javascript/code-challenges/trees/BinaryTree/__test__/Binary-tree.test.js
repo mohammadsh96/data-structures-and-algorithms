@@ -1,6 +1,6 @@
 'use strict';
 const BinaryTree = require('../binary-tree');
-const Node = require('../node');
+const Node = require('../../node');
 
 let tree = null;
 
@@ -48,4 +48,12 @@ describe("Binary Tree", () => {
         let postOrder = tree.postOrder();
         expect(postOrder).toEqual(expectedOutput);
     });
+    test(  "test max node in binary  tree", () => {
+
+     let max =tree.max();
+     expect(max).toEqual(9)
+
+
+    })
+
 })

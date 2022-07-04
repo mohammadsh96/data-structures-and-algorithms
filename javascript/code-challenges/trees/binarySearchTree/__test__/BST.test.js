@@ -4,7 +4,7 @@ const { TestScheduler } = require("jest");
 const BST=require("../binary-search-tree")
 
 describe("Binary Search Tree", () => {
-  
+
   test(  "can create a binary search tree", () => {
 
     let BB =new BST();
@@ -14,7 +14,7 @@ describe("Binary Search Tree", () => {
     expect(BB.Contains(2)).toBe(true);
 
 
-  }) 
+  })
   test("can add a new node " ,()=>{
 
     let BB =new BST();
@@ -34,7 +34,7 @@ describe("Binary Search Tree", () => {
     expect(BB.root.left).toBeNull();
 
 
-  }) 
+  })
   test(  "test left and right", () => {
 
     let BB =new BST();
@@ -44,5 +44,5 @@ describe("Binary Search Tree", () => {
     expect(BB.root.left.value).toBe(1);
     expect(BB.Contains(5)).toBe(false);
 
-  }) 
+  })
 })

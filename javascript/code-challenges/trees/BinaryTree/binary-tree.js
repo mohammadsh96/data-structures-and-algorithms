@@ -46,6 +46,21 @@ class BinaryTree {
         traverse(this.root)
         return result;
     }
+    max() {
+      if (!this.root) {
+          return 'tree empty'
+      };
+      let result = this.root.data;
+
+      let recursive = (node) => {
+          if (node.left) recursive(node.left);
+          if (node.right) recursive(node.right);
+          if (node.data > result) result = node.data;
+      };
+
+      recursive(this.root);
+      return result;
+  };
 }
 
 module.exports = BinaryTree;
