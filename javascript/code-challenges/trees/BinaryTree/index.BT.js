@@ -8,7 +8,7 @@ let one = new Node(5);
 let two = new Node(4);
 let three = new Node(2);
 let four = new Node(0);
-let five = new Node(6);
+let five = new Node(88);
 let six = new Node(11);
 let seven = new Node(42);
 let eight = new Node(77);
@@ -27,15 +27,15 @@ tree = new BinaryTree(one);
 
 let preOrder = tree.preOrder();
 console.log('pre order: ', preOrder);
-//pre order > 5, 4, 11, 42, 77, 3, 2,  0,  6
+//pre order > 5, 4, 11, 42, 77, 3, 2,  0,  88
 
 
 let inOrder = tree.inOrder();
 console.log('in order: ', inOrder);
-//pre order > 11, 77, 42, 3, 4, 5,  0,  2, 6
+//pre order > 11, 77, 42, 3, 4, 5,  0,  2, 88
 
 
 let postOrder = tree.postOrder();
 console.log('post order: ', postOrder);
-//pre order > 77, 3, 42, 11, 4, 0, 6,  2,  5
-console.log(tree.max());
+//pre order > 77, 3, 42, 11, 4, 0, 88,  2,  5
+console.log("this is the maximum value in the tree :",tree.max());
