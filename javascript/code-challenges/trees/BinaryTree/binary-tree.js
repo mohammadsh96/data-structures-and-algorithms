@@ -61,6 +61,51 @@ class BinaryTree {
       recursive(this.root);
       return result;
   };
+  sum() {
+    let summ= 0
+    let traverse = (node) => {
+        if (node.left) {
+         summ =summ + node.left.data;
+          traverse(node.left);
+        }
+
+        if (node.right){
+          summ =summ + node.right.data;
+          traverse(node.right);}
+    }
+    traverse(this.root);
+    summ = summ+this.root.data
+    return summ;
+  }
+
+  count() {
+    let sum= 0
+      let traverse = (node) => {
+        if (node.left) {
+        if(node.left.data === "file"){
+sum ++
+          }
+          traverse(node.left);
+        }
+
+        if (node.right){
+          if(node.right.data === "file"){
+            sum ++
+                      }
+          traverse(node.right);}
+    }
+    traverse(this.root);
+return sum;
+
+  }
+compare(tree1 ,tree2 ){
+
+let x =tree1.count()
+let y =tree2.count()
+
+if(x==y)return true; else return false;
+}
+
 }
 
 module.exports = BinaryTree;
