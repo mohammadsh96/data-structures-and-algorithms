@@ -1,6 +1,6 @@
 "use strict";
 
-const { mergeSort } = require("../mergeSort/mergeSort.js");
+const { mergeSort } = require("../mergeSort.js");
 
 describe("test mergeSort", () => {
   it("Test mergeSort with array length > 2", () => {
