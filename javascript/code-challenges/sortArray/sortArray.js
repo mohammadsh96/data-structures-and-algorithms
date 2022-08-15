@@ -20,22 +20,22 @@ module.exports =sortArray;
 
 //solution without build in method
 
-// function insertionSort(array) {
+function insertionSort(array) {
 
-//   for (let i = 1; i < array.length; i++) {
+  for (let i = 1; i < array.length; i++) {
 
-//       let j = i - 1;
-//       let temp = array[i];
+      let j = i - 1;
+      let temp = array[i];
 
-//       while (j >= 0 && temp < array[j]) {
+      while (j >= 0 && temp < array[j]) {
 
-//           array[j + 1] = array[j];
-//           j = j - 1;
-//       }
-//       array[j + 1] = temp;
-//   }
+          array[j + 1] = array[j];
+          j = j - 1;
+      }
+      array[j + 1] = temp;
+  }
 
-//   return array;
-// }
+  return array;
+}
 
 // module.exports = insertionSort;
