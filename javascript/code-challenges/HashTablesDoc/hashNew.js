@@ -1,9 +1,11 @@
+//grepper hash table class
 class HashTable {
   constructor() {
     this.table = new Array(127);
     this.size = 0;
   }
-
+//end grepper
+//grepper hash method
   _hash(key) {
     let hash = 0;
     for (let i = 0; i < key.length; i++) {
@@ -11,9 +13,10 @@ class HashTable {
     }
     return hash % this.table.length;
   }
-
+//end grepper
 
 //we should update the set method because we dont want to have index collision
+//grepper hash table set item method
   set(key, value) {
 const index = this._hash(key);
 if (this.table[index]) {
@@ -32,8 +35,10 @@ if (this.table[index]) {
 }
 this.size++;
 }
+//end grepper
 
 // Next, update the get() method so that it will also check the second-level array with a for loop and return the right key/value pair:
+//grepper hash table get item method
 get(key) {
 const target = this._hash(key);
 if (this.table[target]) {
@@ -45,9 +50,9 @@ if (this.table[target]) {
 }
 return undefined;
 }
-
+//end grepper
 // Finally, you need to update the remove() method so that it will loop over the second-level array and remove the array with the right key value using the splice() method:
-
+//grepper hash table remove item method
 remove(key) {
 const index = this._hash(key);
 
@@ -63,10 +68,11 @@ if (this.table[index] && this.table[index].length) {
   return false;
 }
 }
+//end grepper
 // With that, your HashTable class will be able to avoid any index number collision and store the key/value pair inside the second-level array.
 
 // As a bonus, let's add a display() method that will display all key/value pairs stored in the Hash Table. You just need to use the forEach() method to iterate over the table and map() the values to a string as shown below:
-
+//grepper hash table display method
 display() {
 this.table.forEach((values, index) => {
   const chainedValues = values.map(
@@ -75,7 +81,7 @@ this.table.forEach((values, index) => {
   console.log(`${index}: ${chainedValues}`);
 });
 }
-
+//end grepper
 
 }
 
