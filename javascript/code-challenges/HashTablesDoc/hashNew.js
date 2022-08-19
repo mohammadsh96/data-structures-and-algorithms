@@ -4,7 +4,8 @@ class HashTable {
     this.table = new Array(127);
     this.size = 0;
   }
-//end grepper
+//end grepper 
+  
 //grepper hash method
   _hash(key) {
     let hash = 0;
@@ -13,9 +14,10 @@ class HashTable {
     }
     return hash % this.table.length;
   }
-//end grepper
+//end grepper  
 
 //we should update the set method because we dont want to have index collision
+  
 //grepper hash table set item method
   set(key, value) {
 const index = this._hash(key);
@@ -35,7 +37,7 @@ if (this.table[index]) {
 }
 this.size++;
 }
-//end grepper
+//end grepper 
 
 // Next, update the get() method so that it will also check the second-level array with a for loop and return the right key/value pair:
 //grepper hash table get item method
@@ -50,7 +52,7 @@ if (this.table[target]) {
 }
 return undefined;
 }
-//end grepper
+//end grepper 
 // Finally, you need to update the remove() method so that it will loop over the second-level array and remove the array with the right key value using the splice() method:
 //grepper hash table remove item method
 remove(key) {
