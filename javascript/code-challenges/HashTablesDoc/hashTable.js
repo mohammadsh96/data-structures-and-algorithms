@@ -8,6 +8,7 @@ class LinkedList {
   constructor() {
       this.head = null;
   }
+  //grepper linkedList append method
   append(value) {
       const node = new Node(value);
       if (!this.head) {
@@ -20,7 +21,9 @@ class LinkedList {
       }
       current.next = node;
   }
+  //end grepper
   // returning the all the values  from the linkedList
+  //grepper linkedList print nodes method
   values() {
       let values = [];
       let current = this.head;
@@ -31,12 +34,13 @@ class LinkedList {
       return values;
   }
 }
-
+//end grepper
 class Hashmap {
   constructor(size) {
       this.size = size;
       this.map = new Array(size);
   }
+  //grepper hash table hashing method
   makeHash(key) {
       const asciicodeSum = key.split("").reduce((acc, cur) => {
           return acc + cur.charCodeAt(0);
@@ -46,6 +50,8 @@ class Hashmap {
       console.log(theIndex)
       return theIndex;
   }
+  //end grepper
+  //grepper add key value to hash table
   add(key, value) {
       const hash = this.makeHash(key);
       // 11 >>> [{'esam', '401d15 student'}>{}]
@@ -57,6 +63,8 @@ class Hashmap {
       }
       this.map[hash].append({ [key]: value });
   }
+  //end grepper
+  
   get(key) {
     const hash = this.makeHash(key);
     if (this.map[hash]) {
