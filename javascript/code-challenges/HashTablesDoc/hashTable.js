@@ -54,9 +54,6 @@ class Hashmap {
   //grepper add key value to hash table
   add(key, value) {
       const hash = this.makeHash(key);
-      // 11 >>> [{'esam', '401d15 student'}>{}]
-      // 11
-      // 3 >> [{}>{}]
       if (!this.map[hash]) {
           this.map[hash] = new LinkedList();
           this.size++
@@ -64,7 +61,7 @@ class Hashmap {
       this.map[hash].append({ [key]: value });
   }
   //end grepper
-  
+
   get(key) {
     const hash = this.makeHash(key);
     if (this.map[hash]) {
