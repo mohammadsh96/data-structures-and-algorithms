@@ -260,17 +260,17 @@ return previousNode;
 }
 let ll = new LinkedList();
 
-ll.insertFirstNode(6);
+// ll.insertFirstNode(6);
 ll.insertFirstNode(7);
 ll.insertNextNode(8);
-ll.insertNextNode("someone");
-ll.insertNextNode("mohammad");
+// ll.insertNextNode("someone");
+// ll.insertNextNode("mohammad");
 ll.insertNextNode(9);
 ll.insertNextNode(45);
 
 ll.toString();
- console.log(ll.reverseLL());
-// ll.toString();
+ll.reverseLL();
+ll.toString();
 
 // ll.clear();
 // ll.reverse()

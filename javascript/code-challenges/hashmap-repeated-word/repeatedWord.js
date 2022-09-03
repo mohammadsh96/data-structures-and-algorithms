@@ -4,9 +4,8 @@ function repeatedWord(string) {
     if (string === ' ') {
         return "Exception";
     }
-
     const arr = string.match(/\w+/g);
-    // console.log(arr)
+    console.log(arr)
     let wordArr = [];
     if (string.length){
         for (let i = 0; i < arr.length; i++) {
@@ -24,5 +23,17 @@ function repeatedWord(string) {
     }
 
 }
-
+console.log(repeatedWord("hello there how are you there"))
 module.exports = repeatedWord;
+// function is_unique(str) {
+//   var obj = {};
+//   for (var z = 0; z < str.length; ++z) {
+//     var ch = str[z];
+//     if (obj[ch]) return false;
+//     obj[ch] = true;
+//   }
+//   return true;
+// }
+
+// console.log(is_unique("abcdefgh")); // true
+// console.log(is_unique("aa")); // false
